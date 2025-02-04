@@ -1,0 +1,17 @@
+const myAge = 22;
+//Talking about my age
+
+var earlyYears = 21;
+// Will change earlyYears(2) * 10.5
+
+var laterYears = 80;
+// (MyAge - 2) * 4, will change, 
+
+var myAgeInDogYears = earlyYears + laterYears
+// (2) * 10.5 + (22 - 2) * 4
+
+var myName = 'Trenton'.toLowerCase();
+// My name in all lowercase
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+// should return my name, age, and my age in dog years
